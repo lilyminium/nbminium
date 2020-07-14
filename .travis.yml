@@ -35,6 +35,7 @@ install:
   
 script:
   - make -C ${SPHINX_DIR} html && touch ${HTML_DIR}/.nojekyll
+  - echo "nb.minium.com.au" > ${HTML_DIR}/CNAME
 
 deploy:
   provider: pages
