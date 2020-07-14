@@ -43,5 +43,5 @@ deploy:
   keep_history: true
   local_dir: "${HTML_DIR}"
   on:
-    branch: master
+    branch: main
 
