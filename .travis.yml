@@ -4,6 +4,10 @@ cache: pip
 python:
   - '3.6'
 
+branches:
+  only:
+    - main
+
 os:
   linux
 
