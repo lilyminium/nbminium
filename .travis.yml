@@ -6,8 +6,7 @@ python:
 
 branches:
   only:
-    - master
-    - develop
+    - main
 
 os:
   linux
