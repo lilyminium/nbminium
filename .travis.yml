@@ -4,11 +4,6 @@ cache: pip
 python:
   - '3.6'
 
-branches:
-  only:
-    - master
-    - develop
-
 os:
   linux
 
