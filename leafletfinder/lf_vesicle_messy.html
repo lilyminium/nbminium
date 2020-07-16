@@ -465,7 +465,7 @@ div.rendered_html tbody tr:hover {
 <div class="prompt empty docutils container">
 </div>
 <div class="output_area docutils container">
-<script type="application/vnd.jupyter.widget-view+json">{"model_id": "0a4523ad743d4bc9a08ec89988b1b470", "version_major": 2, "version_minor": 0}</script></div>
+<script type="application/vnd.jupyter.widget-view+json">{"model_id": "f7cce44bea4844d69100df86cc789bd5", "version_major": 2, "version_minor": 0}</script></div>
 </div>
 <div class="nbinput nblast docutils container">
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[2]:
@@ -545,9 +545,9 @@ Found 9 leaflets: 3702, 2358, 4, 50, 14, 2, 10, 2, 2 residues
 <div class="prompt empty docutils container">
 </div>
 <div class="output_area docutils container">
-<script type="application/vnd.jupyter.widget-view+json">{"model_id": "b9aeb7124eed4827a4c5a6c5121bb178", "version_major": 2, "version_minor": 0}</script></div>
+<script type="application/vnd.jupyter.widget-view+json">{"model_id": "cb37d3f1a7af45a6b40f5e3ede632717", "version_major": 2, "version_minor": 0}</script></div>
 </div>
-<p><img alt="graph_1" src="../_images/lf_vesicle_messy_or_4.png" /></p>
+<p><img alt="messy vesicle: graph, full" src="../_images/lf_vesicle_messy_graph_1.png" /></p>
 <p>Images are embedded to save space, instead of nglview widgets.</p>
 <p>Below I grab these leaflets so I can use them to ascertain the correctness of the the <code class="docutils literal notranslate"><span class="pre">half</span></code> and <code class="docutils literal notranslate"><span class="pre">fifth</span></code> atom groups, where it becomes a bit hard to see which leaflet is which.</p>
 <div class="nbinput nblast docutils container">
@@ -565,7 +565,7 @@ Found 9 leaflets: 3702, 2358, 4, 50, 14, 2, 10, 2, 2 residues
 <h3>Spectral clustering<a class="headerlink" href="#Spectral-clustering" title="Permalink to this headline">¶</a></h3>
 <p>Spectral clustering is having big, big issues.</p>
 <div class="nbinput docutils container">
-<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[8]:
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[6]:
 </pre></div>
 </div>
 <div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
@@ -578,7 +578,7 @@ Found 9 leaflets: 3702, 2358, 4, 50, 14, 2, 10, 2, 2 residues
 </div>
 <div class="output_area docutils container">
 <div class="highlight"><pre>
-Found 8 leaflets: 964, 956, 916, 890, 886, 746, 736, 50 residues
+Found 8 leaflets: 964, 956, 916, 888, 886, 750, 734, 50 residues
 Leaflet 1 is not within superset: 6 extra residues
 Leaflet 2 is not within superset: 956 extra residues
 </pre></div></div>
@@ -587,9 +587,9 @@ Leaflet 2 is not within superset: 956 extra residues
 <div class="prompt empty docutils container">
 </div>
 <div class="output_area docutils container">
-<script type="application/vnd.jupyter.widget-view+json">{"model_id": "87dbc9ed730549d4b49122f025ecf3b5", "version_major": 2, "version_minor": 0}</script></div>
+<script type="application/vnd.jupyter.widget-view+json">{"model_id": "19b4ad195c254335997e22b8742450aa", "version_major": 2, "version_minor": 0}</script></div>
 </div>
-<p><img alt="graph_1" src="../_images/lf_vesicle_messy_or_4.png" /></p>
+<p><img alt="messy vesicle: sc, full" src="../_images/lf_vesicle_messy_sc_1.png" /></p>
 <p>Reducing the number of groups helps a little, although it’s grouped most of the extra ones into the outer leaflet….</p>
 <div class="nbinput docutils container">
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[7]:
@@ -613,16 +613,16 @@ Leaflet 1 is not within superset: 34 extra residues
 <div class="prompt empty docutils container">
 </div>
 <div class="output_area docutils container">
-<script type="application/vnd.jupyter.widget-view+json">{"model_id": "cdb4af98df1541dabaa8e60d350a714a", "version_major": 2, "version_minor": 0}</script></div>
+<script type="application/vnd.jupyter.widget-view+json">{"model_id": "5fef6ba02151492185e3a3ddada58ffd", "version_major": 2, "version_minor": 0}</script></div>
 </div>
-<p><img alt="graph_1" src="../_images/lf_vesicle_messy_or_4.png" /></p>
+<p><img alt="messy vesicle: sc, full, 3 groups" src="../_images/lf_vesicle_messy_sc_2.png" /></p>
 <p>I won’t time this or keep comparing how “spectralclustering” works for the other examples.</p>
 </div>
 <div class="section" id="Orientation">
 <h3>Orientation<a class="headerlink" href="#Orientation" title="Permalink to this headline">¶</a></h3>
 <p>Orientation works with the default cutoff, although whatever the 6 blobs are is not clear.</p>
 <div class="nbinput docutils container">
-<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[9]:
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[8]:
 </pre></div>
 </div>
 <div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
@@ -642,12 +642,12 @@ Found 8 leaflets: 3702, 2358, 28, 16, 16, 12, 6, 6 residues
 <div class="prompt empty docutils container">
 </div>
 <div class="output_area docutils container">
-<script type="application/vnd.jupyter.widget-view+json">{"model_id": "146081969cc34b699836087c6ab42fde", "version_major": 2, "version_minor": 0}</script></div>
+<script type="application/vnd.jupyter.widget-view+json">{"model_id": "690474f38c7b407180b1401e157e8630", "version_major": 2, "version_minor": 0}</script></div>
 </div>
-<p><img alt="graph_1" src="../_images/lf_vesicle_messy_or_4.png" /></p>
+<p><img alt="messy vesicle: orient, full" src="../_images/lf_vesicle_messy_or_1.png" /></p>
 <p>Below I demonstrate that increasing the cutoff does not <em>always</em> increase the accuracy, though (even though I’ve claimed somewhere that it does increase it monotonically). That’s because the algorithm considers all lipids within the cutoff to potentially belong to the same leaflet, providing that they have similar orientations. This, in addition to specifying how many groups you want, means it can do weird things like the below.</p>
 <div class="nbinput docutils container">
-<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[10]:
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[9]:
 </pre></div>
 </div>
 <div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
@@ -669,9 +669,9 @@ Leaflet 2 is not within superset: 14 extra residues
 <div class="prompt empty docutils container">
 </div>
 <div class="output_area docutils container">
-<script type="application/vnd.jupyter.widget-view+json">{"model_id": "fbe320bf460d474ea55d33ec0780a240", "version_major": 2, "version_minor": 0}</script></div>
+<script type="application/vnd.jupyter.widget-view+json">{"model_id": "ab3b2373458847e097eea9a74c60472b", "version_major": 2, "version_minor": 0}</script></div>
 </div>
-<p><img alt="graph_1" src="../_images/lf_vesicle_messy_or_4.png" /></p>
+<p><img alt="messy vesicle: orient, full, large cutoff" src="../_images/lf_vesicle_messy_or_2.png" /></p>
 </div>
 </div>
 <div class="section" id="Half-the-residues">
@@ -680,7 +680,7 @@ Leaflet 2 is not within superset: 14 extra residues
 <h3>Graph<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
 <p>Graph does pretty well here on the default cutoff again.</p>
 <div class="nbinput docutils container">
-<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[11]:
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[10]:
 </pre></div>
 </div>
 <div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
@@ -688,7 +688,7 @@ Leaflet 2 is not within superset: 14 extra residues
 </pre></div>
 </div>
 </div>
-<div class="nboutput docutils container">
+<div class="nboutput nblast docutils container">
 <div class="prompt empty docutils container">
 </div>
 <div class="output_area docutils container">
@@ -696,15 +696,9 @@ Leaflet 2 is not within superset: 14 extra residues
 Found 10 leaflets: 1868, 1162, 24, 2, 4, 2, 2, 4, 2, 2 residues
 </pre></div></div>
 </div>
-<div class="nboutput nblast docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<script type="application/vnd.jupyter.widget-view+json">{"model_id": "dd30ceee3d5e41a981167c31d9766bc3", "version_major": 2, "version_minor": 0}</script></div>
-</div>
-<p><img alt="graph_1" src="../_images/lf_vesicle_messy_or_4.png" /></p>
+<p><img alt="messy vesicle: graph, half" src="../_images/lf_vesicle_messy_graph_2.png" /></p>
 <div class="nbinput docutils container">
-<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[12]:
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[11]:
 </pre></div>
 </div>
 <div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
@@ -717,7 +711,7 @@ Found 10 leaflets: 1868, 1162, 24, 2, 4, 2, 2, 4, 2, 2 residues
 </div>
 <div class="output_area docutils container">
 <div class="highlight"><pre>
-150 ms ± 2.91 ms per loop (mean ± std. dev. of 7 runs, 10 loops each)
+148 ms ± 2.03 ms per loop (mean ± std. dev. of 7 runs, 10 loops each)
 </pre></div></div>
 </div>
 </div>
@@ -725,14 +719,23 @@ Found 10 leaflets: 1868, 1162, 24, 2, 4, 2, 2, 4, 2, 2 residues
 <h3>Orientation<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
 <p>The default settings here don’t quite work, as they have pulled in 2 extra lipids.</p>
 <p>This is likely because we have specified <code class="docutils literal notranslate"><span class="pre">n_groups=8</span></code> and it has achieved that by associating the smallest group (2 lipids) with the closest large group.</p>
-<div class="nbinput nblast docutils container">
-<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[ ]:
+<div class="nbinput docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[12]:
 </pre></div>
 </div>
 <div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
 <span></span><span class="n">show_leaflets</span><span class="p">(</span><span class="n">half</span><span class="p">,</span> <span class="n">method</span><span class="o">=</span><span class="s2">&quot;orientation&quot;</span><span class="p">,</span> <span class="n">superset</span><span class="o">=</span><span class="n">superset</span><span class="p">);</span>
 </pre></div>
 </div>
+</div>
+<div class="nboutput nblast docutils container">
+<div class="prompt empty docutils container">
+</div>
+<div class="output_area docutils container">
+<div class="highlight"><pre>
+Found 8 leaflets: 1868, 1164, 12, 10, 6, 4, 4, 4 residues
+Leaflet 2 is not within superset: 2 extra residues
+</pre></div></div>
 </div>
 <p>Well, we only really care about the 2 actual leaflets. I can take advantage of that by only choosing to find 2 groups, and by using the <code class="docutils literal notranslate"><span class="pre">min_group</span></code> keyword to specify that each leaflet should have at least 20 lipids.</p>
 <div class="nbinput docutils container">
@@ -756,9 +759,9 @@ Found 2 leaflets: 1868, 1162 residues
 <div class="prompt empty docutils container">
 </div>
 <div class="output_area docutils container">
-<script type="application/vnd.jupyter.widget-view+json">{"model_id": "a881c58ce34f489db4502453e8603ffa", "version_major": 2, "version_minor": 0}</script></div>
+<script type="application/vnd.jupyter.widget-view+json">{"model_id": "df99605161d746d4b7106a9a6d2c6467", "version_major": 2, "version_minor": 0}</script></div>
 </div>
-<p><img alt="graph_1" src="../_images/lf_vesicle_messy_or_4.png" /></p>
+<p><img alt="messy vesicle: half, orient, 2 groups" src="../_images/lf_vesicle_messy_or_3m.png" /></p>
 </div>
 </div>
 <div class="section" id="A-fifth-of-the-residues">
@@ -788,9 +791,9 @@ Leaflet 1 is not within superset: 2 extra residues
 <div class="prompt empty docutils container">
 </div>
 <div class="output_area docutils container">
-<script type="application/vnd.jupyter.widget-view+json">{"model_id": "5382c45cd6a941c2acc75852189182e9", "version_major": 2, "version_minor": 0}</script></div>
+<script type="application/vnd.jupyter.widget-view+json">{"model_id": "05354e2c0d2a49a0becb31a98ae2ea33", "version_major": 2, "version_minor": 0}</script></div>
 </div>
-<p><img alt="graph_1" src="../_images/lf_vesicle_messy_or_4.png" /></p>
+<p><img alt="messy vesicle: graph, fifth" src="../_images/lf_vesicle_messy_graph_2.png" /></p>
 </div>
 <div class="section" id="id4">
 <h3>Orientation<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
@@ -816,12 +819,12 @@ Found 2 leaflets: 754, 464 residues
 <div class="prompt empty docutils container">
 </div>
 <div class="output_area docutils container">
-<script type="application/vnd.jupyter.widget-view+json">{"model_id": "b26394b72e3d488b93439e7b12ac19dc", "version_major": 2, "version_minor": 0}</script></div>
+<script type="application/vnd.jupyter.widget-view+json">{"model_id": "d64304c9fe174fa5a8e4690e87137f13", "version_major": 2, "version_minor": 0}</script></div>
 </div>
-<p><img alt="graph_1" src="../_images/lf_vesicle_messy_or_4.png" /></p>
+<p><img alt="messy vesicle: orient, fifth" src="../_images/lf_vesicle_messy_or_4.png" /></p>
 <p>Again, this is sensitive to the cutoff to avoid including those extra lipids.</p>
-<div class="nbinput nblast docutils container">
-<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[ ]:
+<div class="nbinput docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[16]:
 </pre></div>
 </div>
 <div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
@@ -829,6 +832,22 @@ Found 2 leaflets: 754, 464 residues
               <span class="n">cutoff</span><span class="o">=</span><span class="mi">80</span><span class="p">,</span> <span class="n">superset</span><span class="o">=</span><span class="n">superset</span><span class="p">)</span>
 </pre></div>
 </div>
+</div>
+<div class="nboutput docutils container">
+<div class="prompt empty docutils container">
+</div>
+<div class="output_area docutils container">
+<div class="highlight"><pre>
+Found 2 leaflets: 762, 466 residues
+Leaflet 1 is not within superset: 10 extra residues
+Leaflet 2 is not within superset: 4 extra residues
+</pre></div></div>
+</div>
+<div class="nboutput nblast docutils container">
+<div class="prompt empty docutils container">
+</div>
+<div class="output_area docutils container">
+<script type="application/vnd.jupyter.widget-view+json">{"model_id": "428dbf632e7f47dd918c7c6658159d0e", "version_major": 2, "version_minor": 0}</script></div>
 </div>
 </div>
 </div>

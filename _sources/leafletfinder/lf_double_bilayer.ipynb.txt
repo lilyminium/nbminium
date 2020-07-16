@@ -156,7 +156,7 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "![screen shot](images/lf_db_graph_full.png)\n",
+    "![graph, full](images/lf_db_graph_full.png)\n",
     "\n",
     "Images embedded to save space."
    ]
@@ -210,7 +210,7 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "![screen shot](images/lf_db_sc_full.png)"
+    "![sc, full](images/lf_db_sc_full.png)"
    ]
   },
   {
@@ -263,7 +263,7 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "![screen shot](images/lf_db_or_full.png)"
+    "![orient, full](images/lf_db_or_full.png)"
    ]
   },
   {
@@ -314,7 +314,7 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "![screen shot](images/lf_db_or_half.png)"
+    "![orient, half](images/lf_db_or_half.png)"
    ]
   },
   {
@@ -367,7 +367,7 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "![screen shot](images/lf_db_or_half_chol_1.png)"
+    "![orient, half chol, small cutoff](images/lf_db_or_half_chol_1.png)"
    ]
   },
   {
@@ -417,7 +417,7 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "![screen shot](images/lf_db_or_half_chol_2.png)"
+    "![orient, half chol, large cutoff](images/lf_db_or_half_chol_2.png)"
    ]
   },
   {
@@ -468,7 +468,7 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "![screen shot](images/lf_db_or_fifth.png)"
+    "![orient, fifth](images/lf_db_or_fifth.png)"
    ]
   },
   {
@@ -518,7 +518,7 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "![screen shot](images/lf_db_or_fifth_chol.png)"
+    "![orient, fifth chol](images/lf_db_or_fifth_chol.png)"
    ]
   },
   {
