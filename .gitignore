@@ -5,7 +5,7 @@ notebooks/*.pdf
 notebooks/*.pdb
 notebooks/*.ndx
 tmp
-doc/build
+docs/build
 # Ignore Jupyter checkpoints
 *.ipynb_checkpoints
 # Ignore VSCode stuff
