@@ -10,4 +10,4 @@ This is a personal page to trial things and display notebooks. Do not rely on th
 .. toctree::
    :maxdepth: 1
    
-   leafletfinder
+   leafletfinder/README
